@@ -1,0 +1,50 @@
+div {
+    background-color: black;
+}
+#firstDiv {
+    background-color: yellow;
+}
+
+
+
+.redElements {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    background-color: rgb(250, 0, 0);
+    background-color: rgba(255, 0, 0, 0.5);
+    background-color: #ff0000;
+    background-color: #0000ff;
+    background-color: hsl(hue, saturation, lightness);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.25em;
+
+}
+
+.tallElements {
+    height: 200px;
+    width: 100vw;
+}
+#firstDiv, .redElements {
+    color: blue;
+}
+#separateDiv .subChild {
+    color: green;
+    border-color:antiquewhite;
+    border: 10px solid   ;
+}
+
+
+.sqverElement {
+    width: 50%;s
+    height: 200px;
+    background-color: blueviolet;
+}
+
+#sizeChilde {
+    width: 20px;
+    max-width: 200px;
+    background-color: brown;
+}
+#secondsizeChilde {
+    height: inherit;
+}
