@@ -1,0 +1,145 @@
+.flex-containerFirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(3, 36, 70);
+  }
+
+  .flex-containerFirst > div {
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+  
+  }
+
+  .flex-containerSecond {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #000000;
+
+  }
+
+  .flex-containerSecond > div {
+    background-color:white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    color: darkcyan;
+  }
+
+  .flex-SustainableDevelopment {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: space-between;
+    
+}
+.flex-SustainableDevelopment {
+color: #000000;
+
+}
+
+
+.flex-SustainableDevelopment img {
+    height: 280px;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: space-between;
+}
+.flex-reklama {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    color: blue;
+    border-left: 2px solid #000000;
+    
+
+}
+
+.flex-MiznebiFirst, .flex-MiznebiSecond {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction:row;
+    align-content: flex-end;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+   
+}
+
+.flex-MiznebiFirst, .flex-MiznebiSecond img {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+
+}
+.flex-reklama img {
+  width: 180px;
+  height: auto;
+  margin-top: 10px;
+}
+.footer {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(3, 36, 70);
+}
+
+.footer1 {
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+  color: aliceblue;
+  text-align: center;
+
+}
+.footer2 {
+  margin: 5px;
+  padding: 5px;
+  font-size: 10px;
+  color: aliceblue;
+  text-align:left;
+
+}
+.footer3 {
+  margin: 5px;
+  padding: 25px;
+  font-size: 20px;
+  color: aliceblue;
+  text-align:right;
+
+
+}
+
+.flex-footer {
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+.flex-footer > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+  color: rgba(236, 246, 246, 0.878);
+}
